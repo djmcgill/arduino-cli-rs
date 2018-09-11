@@ -1,4 +1,4 @@
-use arduino_cli::*;
+use arduino_cli_rs::*;
 use std::process::exit;
 
 pub fn main() {

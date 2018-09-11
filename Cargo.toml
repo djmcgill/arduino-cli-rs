@@ -1,10 +1,13 @@
 cargo-features = ["edition"]
 
 [package]
-name = "arduino-cli"
+name = "arduino-cli-rs"
 version = "0.1.0"
 authors = ["David McGillicuddy <contact@djmcgill.co.uk>"]
 edition = "2018"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/djmcgill/arduino-cli-rs"
+keywords = ["arduino"]
 
 [dependencies]
 subprocess = "^0.1.13"
