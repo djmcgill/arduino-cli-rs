@@ -1,0 +1,14 @@
+cargo-features = ["edition"]
+
+[package]
+name = "arduino-cli"
+version = "0.1.0"
+authors = ["David McGillicuddy <contact@djmcgill.co.uk>"]
+edition = "2018"
+
+[dependencies]
+subprocess = "^0.1.13"
+failure = "^0.1.2"
+
+[[example]]
+name = "test-example"
